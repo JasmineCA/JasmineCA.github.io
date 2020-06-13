@@ -1,0 +1,32 @@
+.mybuttoncolor {
+
+  background-color: teal;
+  border-color: #18b8b5;
+
+}
+
+.mybuttoncolor:hover{
+
+  background-color: #40a0a0;
+  border-color: #52cac8;
+
+
+}
+
+.mybuttonstyle {
+
+  padding-left:2%;
+  padding-right: 2%;
+  display: block;
+  width: 25%;
+
+}
+
+@media screen and (max-width: 630px){
+
+  .mybuttonstyle{
+
+    width: 100%;
+  }
+
+}
