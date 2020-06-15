@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 ---
 
-# Who I Am
+# Qui je suis
 
-Young programmer doing her best to succeed
+Une jeune programmeuse de talent, pour peu qu'on lui donne les moyens de le prouver
 
-# What I'm doing now
+# Ce que je fais actuellement
 
-Studying to become an computer scientist engineer
+Toujours étudiante
 
 # Contact
 
-Feel free to send me an email at XXX
+Une question? Envoyez moi un email à XXX
