@@ -22,6 +22,15 @@
 
 }
 
+
+.card:hover{
+
+  box-shadow: 3px -3px 3px 2px #ccffff;
+  transition: 1s;
+
+
+}
+
 @media screen and (max-width: 630px){
 
   .mybuttonstyle{
