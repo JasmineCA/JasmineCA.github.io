@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Challenges de Crptopals
-permalink: /projets/Cryptopals
+title: Challenges de Cryptopals
+permalink: /projets/Cryptopals/
+tags: Projet Personnel - Cryptographie - Python3 - Jupyter Notebook
 ---
 
-## {{page.title}}
+# {{page.title}}
+
+<div class="tags mx-auto"><h5>{{ page.tags }}</h5></div>
 
 {% highlight python %}
 print("Hello world")

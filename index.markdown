@@ -46,16 +46,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ## Mes Projets
 
-<div class="card mb-3">
-  <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.PNG" class="card-img-top" alt="...">
+<div class="row row-cols-1 row-cols-md-2">
+<div class="col mb-4">
+<div class="card h-100">
+  <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main3.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Challenges de Cryptopals!</h5>
     <p class="card-text">Première approche de la cryptographie à travers des challenges guidés et abordables, menant à des attaques réalisables en pratique. Utilisation de l'outil Jupyter Notebook pour séparer le code et son exécution de manière logique.</p>
     <a href="{{ site.url }}/projets/Cryptopals/" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
   </div>
 </div>
-
-<div class="card mb-3">
+</div>
+<div class="col mb-4">
+<div class="card h-100">
+  <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Outil de sauvegarde d'un dossier par lecture</h5>
     <p class="card-text">Sauvegarder le nom de certains fichiers pour pouvoir les retrouver en cas de besoin? Sauvegarder l'architecture d'un dossier pour la recréer
@@ -63,8 +67,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
   </div>
 </div>
-
-<div class="card mb-3">
+</div>
+<div class="col mb-4">
+<div class="card h-100">
   <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Étude expérimentale d'une machine de Turing particulière</h5>
@@ -73,8 +78,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
   </div>
 </div>
-
-<div class="card mb-3">
+</div>
+<div class="col mb-4">
+<div class="card h-100">
   <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Lancement du projet Symptomatic</h5>
@@ -82,8 +88,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
   </div>
 </div>
-
-<div class="card mb-3">
+</div>
+<div class="col mb-4">
+<div class="card h-100">
   <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">CoreWar: Affrontement de programmes</h5>
@@ -91,12 +98,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
   </div>
 </div>
-
-<div class="card mb-3">
+</div>
+<div class="col mb-4">
+<div class="card h-100">
   <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Créez vos "livres dont vous êtes le héros"!</h5>
     <p class="card-text">Création en Python3 d'un logiciel permettant de créer des "livres dont vous êtes le héros" avec un affichage sous forme de graphe du livre. Possibilité de lecture grâce à un second logiciel.</p>
     <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
   </div>
+</div>
+</div>
 </div>
