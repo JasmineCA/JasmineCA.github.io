@@ -49,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <div class="row row-cols-1 row-cols-md-2">
 <div class="col mb-4">
 <div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main3.png" class="card-img-top" alt="...">
+  <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Challenges de Cryptopals!</h5>
     <p class="card-text">Première approche de la cryptographie à travers des challenges guidés et abordables, menant à des attaques réalisables en pratique. Utilisation de l'outil Jupyter Notebook pour séparer le code et son exécution de manière logique.</p>

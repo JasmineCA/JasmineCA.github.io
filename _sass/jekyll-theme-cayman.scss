@@ -4,8 +4,8 @@
 @import "timeline";
 @import "tabbed_pane";
 @import "custom";
-//@import "native.css";
-@import "friendly.css";
+@import "default.css";
+//@import "friendly.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 @mixin large {

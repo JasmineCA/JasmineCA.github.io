@@ -3,13 +3,14 @@ layout: default
 title: Challenges de Cryptopals
 permalink: /projets/Cryptopals/
 tags: Projet Personnel - Cryptographie - Python3 - Jupyter Notebook
+dateProjet: 21 avril 2020 -
 ---
 
 # {{page.title}}
 
 <div class="tags mx-auto"><h5>{{ page.tags }}</h5></div>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
 <ol class="carousel-indicators">
     <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleControls" data-slide-to="1"></li>
@@ -17,13 +18,13 @@ tags: Projet Personnel - Cryptographie - Python3 - Jupyter Notebook
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.PNG" class="d-block w-100" alt="...">
+        <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval ="27000">
+      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel2.gif" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image2.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image3.png" class="d-block w-100" alt="...">
+      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel3.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -36,6 +37,104 @@ tags: Projet Personnel - Cryptographie - Python3 - Jupyter Notebook
   </a>
 </div>
 
+##### Dates du projet: {{ page.dateProjet }}
+
+Pour commencer à prendre contact avec la cryptographie, on m'a conseillé de commencer par ces challenges de Cryptopals, qui restent toujours d'actualité. Ils mettent l'accent sur la découverte d'algorithme de chiffrements (mise en place de leur implémentation par nos propres moyens) et également les attaques actuelles sur ces algorithmes.
+J'ai découvert qu'il y avait bien plus d'attaques possibles sur des algorithmes toujours utilisés, et que la majorité des failles venaient de leur utilisation, coté serveur notamment.
+
+Beaucoup de solutions sont disponibles sur internet (en cherchant le titre des challenges) mais j'ai tenté de ne jamais chercher les solutions, sauf quelques cas particuliers. Après avoir fini ce projet, il sera intéressant de comparer mon implémentation avec d'autres solutions, afin de perfectionner mon traitement algorithmique des problèmes.
+
+Python est selon moi le langage idéal pour ce projet car il permet de prototyper très rapidement, sans se soucier du typage ou du contrôle d'erreur. Pour du code n'étant pas utilisé en dehors de ce projet, ce n'est pas un problème. Associé à l'outil Jupyter Notebook, j'obtiens un fichier structuré, alternant entre texte et code, avec la possibilité d'exécuter des blocs de code indépendamment des autres, afin de ne pas re exécuter des traitements lourds par exemple, ou re générer une clé secrète. Néanmoins, après avoir compris la partie algorithme, il sera intéressant de peaufiner le code, voire de passer à un langage plus structuré ou bas niveau, comme Rust ou C.
+
+Le but de ce projet était de pouvoir m'accrocher à un projet personnel, donc de le rendre utile et de l'intégrer à mon cursus. Il n'est pas facile de se trouver face à ce type de challenge, sans indication et connaissance. Pourtant, j'ai le sentiment que les challenges de Cryptopals m'ont mis "le pied à l'étrier" et m'ont donné une connaissance préliminaire du domaine. Certains challenges ne sont pas particulièrement faciles, autant au niveau technique qu'au niveau de l'énoncé, mais la détermination et l'envie de comprendre m'ont poussé à continuer de chercher par moi même.
+
+### Extraits de code
+
+#### Analyse de texte
+
 {% highlight python %}
-print("Hello world")
+def get_chi2(text):
+
+    english_freq = {
+
+        'a':0.08167,
+        'b':0.01492,
+        'c':0.02782,
+        'd':0.04253,
+        'e':0.12702,
+        'f':0.02228,
+        'g':0.02015,
+        'h':0.06094,
+        'i':0.06966,
+        'j':0.00153,
+        'k':0.00772,
+        'l':0.04025,
+        'm':0.02406,
+        'n':0.06749,
+        'o':0.07507,
+        'p':0.01929,
+        'q':0.00095,
+        'r':0.05987,
+        's':0.06327,
+        't':0.09056,
+        'u':0.02758,
+        'v':0.00978,
+        'w':0.02360,
+        'x':0.00150,
+        'y':0.01974,
+        'z':0.00074
+
+    }
+
+    ignored = 0
+
+    count = {}
+
+    for c in text:
+
+        c = c.lower()
+
+        if c in english_freq:
+
+            if c not in count:
+
+                count[c] = 1
+            else:
+
+                count[c] = count[c]+1
+        else:
+
+            ignored+=1
+
+    chi_2 = 0
+    lenght = len(text) - ignored
+
+    if lenght<(len(text)//2):
+
+        return 1000
+
+    for (key,value) in count.items():
+
+        observed = value
+
+        expected = lenght*english_freq[key]
+
+        difference = observed - expected
+
+        chi_2+= difference*difference/expected
+
+
+    return chi_2
 {% endhighlight %}
+
+Les premiers challenges se basent sur le chiffrement de Cesar et celui de Vigenère en utilisant l'opérateur XOR. Trouver la clé secrète pour ces systèmes se résume à essayer de repérer la lettre la plus fréquente dans le texte chiffré, et d'émettre une supposition quant à la valeur de cette lettre dans le texte en clair, grâce à l'analyse fréquentielle. Si la supposition est correcte, la clé est trouvée. Néanmoins, pour valider une supposition, il faut pouvoir estimer si le texte "déchiffré" ressemble à un texte lisible (ici en anglais).
+
+Après avoir abandonné l'idée de le faire à la main, j'ai cherché une manière simple d'estimer si un texte donné ressemblait à de l'anglais. J'ai fini par adopter le [Pearson's chi-squared test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) appliqué à la fréquence d'apparition des lettres de l'alphabet dans un texte en anglais. (Le pseudo code a été trouvé via stackoverflow). Cependant, le code d'origine a été modifié pour éviter les "faux positifs": des textes avec un bon score qui ne sont pas du tout de l'anglais.
+
+Les faux positifs sont majoritairement créés par du texte contenant peu de lettres de l'alphabet, et beaucoup de ponctuations ou autre caractères existants. Le calcul du score élimine les caractères non alphabétiques, ce qui aboutit à un très faible nombre de caractères retenus. Pour régler ce problème, j'ai déterminé arbitrairement que si le nombre de caractères retenus était inférieur à la moitié de la longueur total du texte, alors l'algorithme retourne un score de 1000 directement.
+
+Pour utiliser l'algorithme, j'établis un score maximum, et je ne garde que les textes ayant un score inférieur à ce maximum. Je peux ainsi moduler la sensibilité de la détection selon ce maximum.
+
+Cet exemple montre parfaitement l'intérêt de la cryptographie à s'associer à d'autres disciplines comme l'IA appliquée à la reconnaissance de textes, avec des méthodes bien plus efficaces que la comparaison des fréquences. 
+
+<a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">Voir sur GitHub</a>
