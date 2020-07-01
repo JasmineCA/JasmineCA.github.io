@@ -135,6 +135,30 @@ Les faux positifs sont majoritairement créés par du texte contenant peu de let
 
 Pour utiliser l'algorithme, j'établis un score maximum, et je ne garde que les textes ayant un score inférieur à ce maximum. Je peux ainsi moduler la sensibilité de la détection selon ce maximum.
 
-Cet exemple montre parfaitement l'intérêt de la cryptographie à s'associer à d'autres disciplines comme l'IA appliquée à la reconnaissance de textes, avec des méthodes bien plus efficaces que la comparaison des fréquences. 
+Cet exemple montre parfaitement l'intérêt de la cryptographie à s'associer à d'autres disciplines comme l'IA appliquée à la reconnaissance de textes, avec des méthodes bien plus efficaces que la comparaison des fréquences.
+
+#### Oracle
+
+{% highlight python %}
+def ECB_oracle(plaintext):
+
+    plaintext = bytes(plaintext,"utf-8")
+
+    string_append = base64.b64decode(unknow_string)
+
+    plaintext = plaintext + string_append
+
+    return AES_ECB_mode_encrypt(plaintext,global_key)
+{% endhighlight %}
+
+La notion d'oracle est présente à de nombreuses reprises lors des challenges, et permet de simuler un coté "serveur". Même si nous connaissons les détails de la fonction, notamment la taille de bloc et l'algorithme de chiffrement utilisé, le challenge pousse à identifier ces caractéristiques.
+
+La taille du bloc peut être déduite en chiffrant un texte contenant `n` fois le même caractère, en incrémentant n et en observant les différences entre les textes chiffrés. L'algorithme, et surtout son mode, peut être déduit en cherchant à détecter le mode ECB (Electronic Code Block) sur le texte chiffré. En ayant la taille de bloc `B`, il suffit de chiffrer un texte contenant `2B` fois le même caractère, et d'observer si une répétition apparaît dans le texte chiffré.
+
+Toutes ces informations connues, le but était de déchiffrer la chaîne `unknow_string` ajoutée après le plaintext fourni par l'utilisateur, en devinant byte par byte cette chaîne. Pour voir ma solution, il faut chercher le challenge 12 dans le Set 2.
+
+### Liens externes
+
+[Les Challenges de Cryptopals](https://cryptopals.com/)
 
 <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">Voir sur GitHub</a>
