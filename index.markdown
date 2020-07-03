@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     <h5 class="card-title">Outil de sauvegarde d'un dossier par lecture</h5>
     <p class="card-text">Sauvegarder le nom de certains fichiers pour pouvoir les retrouver en cas de besoin? Sauvegarder l'architecture d'un dossier pour la recréer
     ultérieurement? Cet outil conçu en Rust répondra à ce besoin.</p>
-    <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
+    <a href="{{ site.url }}/projets/SaveTool/" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
   </div>
 </div>
 </div>
