@@ -3,12 +3,12 @@ layout: default
 title: Challenges de Cryptopals
 permalink: /projets/Cryptopals/
 tags: Projet Personnel - Cryptographie - Python3 - Jupyter Notebook
-dateProjet: 21 avril 2020 -
+dateProjet: 21 avril 2020 - Toujours en développement
 ---
 
 # {{page.title}}
 
-<div class="tags mx-auto"><h5>{{ page.tags }}</h5></div>
+<div class="tags mx-auto"><p>{{ page.tags }}</p></div>
 
 <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
 <ol class="carousel-indicators">
@@ -18,13 +18,13 @@ dateProjet: 21 avril 2020 -
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel1.png" class="d-block w-100" alt="...">
+        <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel1.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
     </div>
     <div class="carousel-item" data-interval ="27000">
-      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel2.gif" class="d-block w-100" alt="...">
+      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel2.gif" class="d-block w-100 img-thumbnail img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel3.png" class="d-block w-100" alt="...">
+      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel3.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
