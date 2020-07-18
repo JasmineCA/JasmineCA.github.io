@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     <h5 class="card-title">Étude expérimentale d'une machine de Turing particulière</h5>
     <p class="card-text">A partir d'une publication de chercheur sur la machine de Turing SMART, nous avons tenté d'expérimenter ses propriétés théorique à partir d'une
     modélisation en C++ et de tests en script Bash.</p>
-    <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
+    <a href="{{ site.url }}/projets/TuringMachine/" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
   </div>
 </div>
 </div>
