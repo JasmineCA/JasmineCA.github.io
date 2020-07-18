@@ -7,7 +7,7 @@ dateProjet: Mi Avril - Toujours en développement
 ---
 
 <div>
-  <img src="/assets/images/placeholder-image.png" class="img-fluid img-thumbnail mb-3"/>
+  <img src="/assets/images/projets/SaveFolder/savefolder.gif" class="img-fluid img-thumbnail mb-3"/>
 </div>
 
 Affectionnant particulièrement tester des systèmes d'exploitation divers et variés, j'ai une certaine collection de fichiers iso, rangés selon une architecture précise pour facilement retrouver l'iso dont j'ai besoin. Néanmoins, chaque fichier iso pouvant peser environ 1Go, faire une backup de ce dossier risquerait de peser très lourd, alors que ces fichiers sont facilement re-téléchargeable. Je n'ai besoin que de connaître la *liste* et *l'organisation* du dossier.
