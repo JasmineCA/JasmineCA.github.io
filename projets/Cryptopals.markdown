@@ -1,14 +1,10 @@
 ---
-layout: default
+layout: projet
 title: Challenges de Cryptopals
 permalink: /projets/Cryptopals/
 tags: Projet Personnel - Cryptographie - Python3 - Jupyter Notebook
 dateProjet: 21 avril 2020 - Toujours en développement
 ---
-
-# {{page.title}}
-
-<div class="tags mx-auto"><p>{{ page.tags }}</p></div>
 
 <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
 <ol class="carousel-indicators">
@@ -18,13 +14,13 @@ dateProjet: 21 avril 2020 - Toujours en développement
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel1.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+        <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel1.png" class="d-block w-100 img-thumbnail" alt="...">
     </div>
     <div class="carousel-item" data-interval ="27000">
-      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel2.gif" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel2.gif" class="d-block w-100 img-thumbnail" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel3.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+      <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/carousel3.png" class="d-block w-100 img-thumbnail" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -36,8 +32,6 @@ dateProjet: 21 avril 2020 - Toujours en développement
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-##### Dates du projet: {{ page.dateProjet }}
 
 Pour commencer à prendre contact avec la cryptographie, on m'a conseillé de commencer par ces challenges de Cryptopals, qui restent toujours d'actualité. Ils mettent l'accent sur la découverte d'algorithme de chiffrements (mise en place de leur implémentation par nos propres moyens) et également les attaques actuelles sur ces algorithmes.
 J'ai découvert qu'il y avait bien plus d'attaques possibles sur des algorithmes toujours utilisés, et que la majorité des failles venaient de leur utilisation, coté serveur notamment.
