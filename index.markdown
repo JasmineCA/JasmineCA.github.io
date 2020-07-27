@@ -70,7 +70,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </div>
 <div class="col mb-4">
 <div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
+  <img src="{{ site.baseurl}}/assets/images/projets/TuringMachine/SMARTTable.PNG" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Étude expérimentale d'une machine de Turing particulière</h5>
     <p class="card-text">A partir d'une publication de chercheur sur la machine de Turing SMART, nous avons tenté d'expérimenter ses propriétés théorique à partir d'une

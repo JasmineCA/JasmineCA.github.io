@@ -5,28 +5,24 @@ permalink: /projets/TuringMachine/
 tags: Projet en groupe - C++ - Bash
 dateProjet: 13 Janvier 2020 - 1 Mars 2020
 ---
-<div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
+<div id="carouselTuringMachine" class="carousel slide mb-3" data-ride="carousel">
 <ol class="carousel-indicators">
-    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
-    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+    <li data-target="#carouselTuringMachine" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselTuringMachine" data-slide-to="1"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="d-block w-100 img-thumbnail" alt="...">
+        <img src="{{ site.baseurl}}/assets/images/projets/TuringMachine/SMARTTable.PNG" class="d-block w-100 img-thumbnail" alt="...">
     </div>
-    <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image2.png" class="d-block w-100 img-thumbnail" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image3.png" class="d-block w-100 img-thumbnail" alt="...">
+    <div class="carousel-item" data-interval="23000">
+      <img src="{{ site.baseurl}}/assets/images/projets/TuringMachine/turingmachine.gif" class="d-block w-100 img-thumbnail" alt="...">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselTuringMachine" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselTuringMachine" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
