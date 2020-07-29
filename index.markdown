@@ -85,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
   <div class="card-body">
     <h5 class="card-title">Lancement du projet Symptomatic</h5>
     <p class="card-text">Dans le cadre d'un module sur la créativité logicielle, j'ai participé à la création et au développement fictif de Symptomatic, une application Android pour réguler le flux de patients aux urgences hospitalières.</p>
-    <a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">En savoir plus</a>
+    <a href="{{ site.url }}/projets/Symptomatic" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
   </div>
 </div>
 </div>
