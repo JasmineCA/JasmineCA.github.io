@@ -12,10 +12,10 @@ dateProjet: Début Décembre 2019 - 2 mars 2020
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="d-block w-100 img-thumbnail" alt="...">
+        <img src="{{ site.baseurl}}/assets/images/projets/Symptomatic/symptomatic1.jpg" class="d-block w-100 img-thumbnail" alt="...">
     </div>
-    <div class="carousel-item" data-interval="23000">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image2.png" class="d-block w-100 img-thumbnail" alt="...">
+    <div class="carousel-item">
+      <img src="{{ site.baseurl}}/assets/images/projets/Symptomatic/symptomatic2.jpg" class="d-block w-100 img-thumbnail" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselSymptomatic" role="button" data-slide="prev">
