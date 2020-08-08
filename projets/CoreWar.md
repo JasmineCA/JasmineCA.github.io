@@ -191,8 +191,16 @@ public interface Evolution {
 }
 {% endhighlight %}
 
-Toute la partie "Génération de programmes performants" se base sur des interfaces, à implémenter pour créer un algorithme génétique personalisé. 
+Toute la partie "Génération de programmes performants" se base sur des interfaces, à implémenter pour créer un algorithme génétique personnalisé.
 
-Voici le code complet de l'interface `Evolution` permettant de créer une nouvelle population de Warrior, ou de les faire muter. La seule méthode à implémenter est `mutWarriors`, prenant la population de Warriors en argument, et un paramètre suplémentaire utilisé pour des générations aléatoires. Il serait possible de mettre une liste en argument, pour passer plusieurs paramètres supplémentaires. Grâce à cette méthode, il est possible d'effectuer toute sorte de modification sur les Warriors, ou sur la population (ajout ou suppression). Le schéma est identique pour les autres interfaces.
+Voici le code complet de l'interface `Evolution` permettant de créer une nouvelle population de Warrior, ou de les faire muter. La seule méthode à implémenter est `mutWarriors`, prenant la population de Warriors en argument, et un paramètre supplémentaire utilisé pour des générations aléatoires. Il serait possible de mettre une liste en argument, pour passer plusieurs paramètres supplémentaires. Grâce à cette méthode, il est possible d'effectuer toute sorte de modification sur les Warriors, ou sur la population (ajout ou suppression). Le schéma est identique pour les autres interfaces.
 
-La modularité du code est complète, en permettant ainsi de changer concrètement le comportement de l'algorithme, sans toutefois devoir réécrire complétement le déroulement de ce dernier.
+La modularité du code est complète, en permettant ainsi de changer concrètement le comportement de l'algorithme, sans toutefois devoir réécrire complètement le déroulement de ce dernier.
+
+### Liens externes
+
+[Premier Standard du CoreWar](http://corewar.co.uk/standards/cwg.txt)
+
+[Comprendre le RedCode](http://vyznev.net/corewar/guide.html)
+
+[Ressources supplémentaires pour le CoreWar](https://corewar.co.uk/indexx.htm)
