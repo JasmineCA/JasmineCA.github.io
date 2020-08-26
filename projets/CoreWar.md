@@ -10,17 +10,13 @@ dateProjet: Janvier 2019 - Avril 2019
 <ol class="carousel-indicators">
     <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleControls" data-slide-to="1"></li>
-    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner"> 1min21
     <div class="carousel-item active">
-        <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="d-block w-100 img-thumbnail" alt="...">
+        <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar1.png" class="d-block w-100 img-thumbnail" alt="...">
     </div>
-    <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image2.png" class="d-block w-100 img-thumbnail" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="{{ site.baseurl}}/assets/images/placeholder-image3.png" class="d-block w-100 img-thumbnail" alt="...">
+    <div class="carousel-item" data-interval="69000">
+      <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar2.gif" class="d-block w-100 img-thumbnail" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
