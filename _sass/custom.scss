@@ -45,6 +45,18 @@
   margin: auto;
 }
 
+#carouselEditeurLivre > .carousel-inner > .carousel-item > img{
+
+  width:60vw;
+  height:80vh;
+}
+
+.carousel-indicators > li{
+
+  background-color: teal;
+
+}
+
 @media screen and (max-width: 630px){
 
   .mybuttonstyle{

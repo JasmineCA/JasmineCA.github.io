@@ -5,7 +5,36 @@ permalink: /projets/EditeurLivre/
 tags: Projet en groupe - Python3 - Premier projet
 dateProjet: Janvier 2017-Mai 2017
 ---
-
+<div id="carouselEditeurLivre" class="carousel slide mb-3" data-ride="carousel">
+<ol class="carousel-indicators">
+    <li data-target="#carouselEditeurLivre" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselEditeurLivre" data-slide-to="1"></li>
+    <li data-target="#carouselEditeurLivre" data-slide-to="2"></li>
+    <li data-target="#carouselEditeurLivre" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="{{ site.baseurl}}/assets/images/projets/EditeurLivre/editeurdelivre1.png" class="d-block w-100 img-thumbnail" alt="...">
+    </div>
+    <div class="carousel-item img-fluid">
+      <img src="{{ site.baseurl}}/assets/images/projets/EditeurLivre/editeurdelivre2.png" class="d-block w-100 img-thumbnail" alt="...">
+    </div>
+    <div class="carousel-item img-fluid">
+      <img src="{{ site.baseurl}}/assets/images/projets/EditeurLivre/editeurdelivre3.png" class="d-block w-100 img-thumbnail" alt="...">
+    </div>
+   <div class="carousel-item img-fluid">
+      <img src="{{ site.baseurl}}/assets/images/projets/EditeurLivre/editeurdelivre4.png" class="d-block w-100 img-thumbnail" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselEditeurLivre" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselEditeurLivre" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 L'éditeur de Livre dont vous êtes le héros est le premier projet qui nous a été demandé de mener durant notre première année de licence. La seule connaissance que nous avions de la programmation était le langage Python, langage du projet. Ce projet nous aura permis de découvrir la conception de logiciel, le système de version (SVN, puis Git), la programmation objet (très sommairement) et de mettre en pratique nos acquis. 
 
