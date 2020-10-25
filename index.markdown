@@ -8,9 +8,11 @@ layout: default
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-# Voici mon parcours de programmeur
+# Mon parcours de programmeur
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma voie entre informatique et mathématique, pour finalement essayer de concilier les deux dans la cryptographie. J'aime aussi bidouiller mon système, surtout sans interface graphique. 
+
+Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'ai évolué vers des projets complexes, spécialisés ou encore utilitaires. Même si aucun d'eux ne mets en avant la connaissance mathématique que je possède encore au fond de moi, j'espère pouvoir un jour mener un projet qui le montrera.
 
 ## Mes études
 
