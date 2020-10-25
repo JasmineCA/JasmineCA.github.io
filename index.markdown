@@ -17,6 +17,12 @@ Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'
 ## Mes études
 
 <div class="timeline">
+<div class="container right">
+   <div class="content">
+    <h2>2020-2023</h2>
+    <p><span class="degree">Diplôme d'Ingénieur en Informatique</span><br><br>ENSICAEN</p>
+   </div>
+  </div>
  <div class="container left">
    <div class="content">
     <h2>2017-2020</h2>
