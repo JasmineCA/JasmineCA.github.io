@@ -6,12 +6,12 @@ permalink: /about/
 
 # Qui je suis
 
-Une jeune programmeuse de talent, pour peu qu'on lui donne les moyens de le prouver
+Une jeune programmeuse de talent, pour peu qu'on lui donne les moyens de le prouver. Mathématicienne qui s'ignore. Aime dessiner, écrire et regarder des vidéos.
 
 # Ce que je fais actuellement
 
-Toujours étudiante
+Élève ingénieure ensicaennaise
 
 # Contact
 
-Une question? Envoyez moi un email à XXX
+Une question? Envoyez moi un email à [jsca1498@gmail.com](mailto:jsca1498@gmail.com?subject=GithubIO)
