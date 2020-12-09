@@ -45,11 +45,11 @@ Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'
  </div>
 </div>
 
-<hr>
+<hr id="Projets">
 
 ## Mes Projets
 
-<div class="row row-cols-1 row-cols-md-2" id="Projets">
+<div class="row row-cols-1 row-cols-md-2">
 <div class="col mb-4">
 <div class="card h-100">
   <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.png" class="card-img-top" alt="...">
