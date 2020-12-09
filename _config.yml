@@ -54,3 +54,4 @@ plugins:
 
 # Google Analytics
 google_analytics: G-TCX6P4STV1
+site.google_analytics: true 
