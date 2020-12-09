@@ -40,7 +40,7 @@
 
 .card:hover{
 
-  box-shadow: 3px -3px 3px 2px #ccffff;
+  box-shadow: 3px -3px 3px 2px rgba(#50D0D0,0.5);
   transition: 1s;
 
 
@@ -84,5 +84,13 @@
     width:100%;
     height:100%;
   }
+
+}
+
+hr{
+
+  background-color:#32B2B2 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 
 }

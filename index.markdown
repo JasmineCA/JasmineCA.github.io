@@ -14,6 +14,8 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 
 Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'ai évolué vers des projets complexes, spécialisés ou encore utilitaires. Même si aucun d'eux ne mets en avant la connaissance mathématique que je possède encore au fond de moi, j'espère pouvoir un jour mener un projet qui le montrera.
 
+<hr>
+
 ## Mes études
 
 <div class="timeline">
@@ -43,14 +45,7 @@ Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'
  </div>
 </div>
 
-## Mes Langages
-
-<div id="LanguagesPanes"> <!-- Not responsive, go see css --> <!-- Add TutorialPoints snippets and remove hljs-->
-</div>
-
-<script src="{{ site.baseurl}}/assets/js/tabbed_pane.js"></script>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<hr>
 
 ## Mes Projets
 
