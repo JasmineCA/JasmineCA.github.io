@@ -155,4 +155,4 @@ Toutes ces informations connues, le but était de déchiffrer la chaîne `unknow
 
 [Les Challenges de Cryptopals](https://cryptopals.com/)
 
-<a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">Voir sur GitHub</a>
+<a class="btn btn-primary mybuttoncolorDead mybuttonstyle mx-auto">Voir sur GitHub (A venir)</a>

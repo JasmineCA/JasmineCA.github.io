@@ -16,4 +16,4 @@ Cet outil utilisable en ligne de commande a été conçu pour cet usage, enregis
 
 Mon apprentissage du Rust étant très récent, j'en ai profité pour utiliser ce langage et mettre en pratique mes connaissances dans une application rapide et simple.
 
-<a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">Voir sur GitHub</a>
+<a class="btn btn-primary mybuttoncolorDead mybuttonstyle mx-auto">Voir sur GitHub (A venir)</a>

@@ -102,10 +102,12 @@ Si nous analysons la première ligne, nous pouvons constater que pour l'entrée 
 
 Nous pouvons remarquer que la machine inverse parcourt souvent beaucoup plus d'étapes que la SMART. L'inverse de la SMART est dynamique, donc les états extrêmes de la machine (de départ et d'arrêt) ne sont pas représentatifs de son fonctionnement et de ses propriétés.
 
+
+<a class="btn btn-primary mybuttoncolorDead mybuttonstyle mx-auto">Voir sur GitHub (A venir)</a>
+
 ### Liens externes
 
 [La publication en question](https://hal.archives-ouvertes.fr/hal-00975244/document)
 
 [Page de présentation de JFLAP](http://www.jflap.org/)
 
-<a href="#" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto">Voir sur GitHub</a>

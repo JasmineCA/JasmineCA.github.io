@@ -193,6 +193,8 @@ Voici le code complet de l'interface `Evolution` permettant de créer une nouvel
 
 La modularité du code est complète, en permettant ainsi de changer concrètement le comportement de l'algorithme, sans toutefois devoir réécrire complètement le déroulement de ce dernier.
 
+<a class="btn btn-primary mybuttoncolorDead mybuttonstyle mx-auto">Voir sur GitHub (A venir)</a>
+
 ### Liens externes
 
 [Premier Standard du CoreWar](http://corewar.co.uk/standards/cwg.txt)

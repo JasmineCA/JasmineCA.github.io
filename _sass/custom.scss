@@ -5,6 +5,21 @@
 
 }
 
+.mybuttoncolorDead {
+
+  background-color: #003030;
+  border-color: gray;
+  color: white !important;
+
+}
+
+.mybuttoncolorDead:hover{
+
+  background-color: white;
+  color: black !important;
+
+}
+
 .mybuttoncolor:hover{
 
   background-color: #40a0a0;
