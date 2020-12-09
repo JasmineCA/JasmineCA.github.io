@@ -107,14 +107,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
   </div>
 </div>
 </div>
-<div class="col mb-4">
-<div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/projets/EditeurLivre/editeurdelivre4.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Créez vos "livres dont vous êtes le héros"!</h5>
-    <p class="card-text">Création en Python3 d'un logiciel permettant de créer des "livres dont vous êtes le héros" avec un affichage sous forme de graphe du livre. Possibilité de lecture grâce à un second logiciel.</p>
-    <a href="{{ site.url }}/projets/EditeurLivre" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
-  </div>
-</div>
-</div>
 </div>
