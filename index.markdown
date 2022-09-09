@@ -19,7 +19,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 <div class="row row-cols-1 row-cols-md-2">
 <div class="col mb-4">
 <div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.png" class="card-img-top" alt="...">
+  <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.png" class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Challenges de Cryptopals!</h5>
     <p class="card-text">Première approche de la cryptographie à travers des challenges guidés et abordables, menant à des attaques réalisables en pratique. Utilisation de l'outil Jupyter Notebook pour séparer le code et son exécution de manière logique.</p>
@@ -29,7 +29,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 </div>
 <div class="col mb-4">
 <div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="...">
+  <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Outil de sauvegarde d'un dossier par lecture</h5>
     <p class="card-text">Sauvegarder le nom de certains fichiers pour pouvoir les retrouver en cas de besoin? Sauvegarder l'architecture d'un dossier pour la recréer
@@ -40,7 +40,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 </div>
 <div class="col mb-4">
 <div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/projets/TuringMachine/SMARTTable.PNG" class="card-img-top" alt="...">
+  <img src="{{ site.baseurl}}/assets/images/projets/TuringMachine/SMARTTable.PNG" class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Étude expérimentale d'une machine de Turing particulière</h5>
     <p class="card-text">A partir d'une publication de chercheur sur la machine de Turing SMART, nous avons tenté d'expérimenter ses propriétés théorique à partir d'une
@@ -51,7 +51,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 </div>
 <div class="col mb-4">
 <div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/projets/Symptomatic/symptomatic2.jpg" class="card-img-top" alt="...">
+  <img src="{{ site.baseurl}}/assets/images/projets/Symptomatic/symptomatic2.jpg" class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Lancement du projet Symptomatic</h5>
     <p class="card-text">Dans le cadre d'un module sur la créativité logicielle, j'ai participé à la création et au développement fictif de Symptomatic, une application Android pour réguler le flux de patients aux urgences hospitalières.</p>
@@ -61,7 +61,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 </div>
 <div class="col mb-4">
   <div class="card h-100">
-    <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar3.png" class="card-img-top" alt="...">
+    <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar3.png" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">CoreWar: Affrontement de programmes</h5>
       <p class="card-text">Modélisation en Java du jeu CoreWar, où deux programmes en Assembleur simplifié s'affrontent au sein d'une machine dotée d'une mémoire et d'un processeur. Dans le cadre de ce projet, une interface graphique simpliste ainsi qu'un algorithme générant des programmes performants ont également été développé.</p>
@@ -71,11 +71,21 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 </div>
 <div class="col mb-4">
   <div class="card h-100">
-    <img src="{{ site.baseurl}}/../assets/images/projets/RootMe/rootme1.svg" class="card-img-top" alt="...">
+    <img src="{{ site.baseurl}}/assets/images/projets/RootMe/rootme1.svg" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Challenges sur Root-Me</h5>
       <p class="card-text">Apprentissage en autodidacte de certaines notions de sécurité informatique à travers des challenges dans différents sous domaines (web, réseau, cryptanalyse)</p>
       <a href="{{ site.url }}/projets/Root-Me" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
     </div>
+  </div>
+</div>
+<div class="col mb-4">
+  <div class="card h-100">
+    <img src="{{ site.baseurl}}/assets/images/projets/MultiFactorsAuthentication/multiFactorsAuth2.png" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Authentification Multi-Facteurs</h5>
+        <p class="card-text">Démonstration d'une méthode d'authentification multi facteurs avec une empreinte digitale, un QR-Code et un mot de passe.</p>
+        <a href="{{site.url}}/projets/AuthMultiFacteurs" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
+      </div>
   </div>
 </div>
