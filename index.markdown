@@ -60,13 +60,22 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 </div>
 </div>
 <div class="col mb-4">
-<div class="card h-100">
-  <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar3.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">CoreWar: Affrontement de programmes</h5>
-    <p class="card-text">Modélisation en Java du jeu CoreWar, où deux programmes en Assembleur simplifié s'affrontent au sein d'une machine dotée d'une mémoire et d'un processeur. Dans le cadre de ce projet, une interface graphique simpliste ainsi qu'un algorithme générant des programmes performants ont également été développé.</p>
-    <a href="{{ site.url }}/projets/CoreWar" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
+  <div class="card h-100">
+    <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar3.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CoreWar: Affrontement de programmes</h5>
+      <p class="card-text">Modélisation en Java du jeu CoreWar, où deux programmes en Assembleur simplifié s'affrontent au sein d'une machine dotée d'une mémoire et d'un processeur. Dans le cadre de ce projet, une interface graphique simpliste ainsi qu'un algorithme générant des programmes performants ont également été développé.</p>
+      <a href="{{ site.url }}/projets/CoreWar" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
+    </div>
   </div>
 </div>
-</div>
+<div class="col mb-4">
+  <div class="card h-100">
+    <img src="{{ site.baseurl}}/../assets/images/projets/RootMe/rootme1.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Challenges sur Root-Me</h5>
+      <p class="card-text">Apprentissage en autodidacte de certaines notions de sécurité informatique à travers des challenges dans différents sous domaines (web, réseau, cryptanalyse)</p>
+      <a href="{{ site.url }}/projets/Root-Me" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
+    </div>
+  </div>
 </div>
