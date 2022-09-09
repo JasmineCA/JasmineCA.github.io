@@ -14,37 +14,6 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 
 Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'ai évolué vers des projets complexes, spécialisés ou encore utilitaires. Même si aucun d'eux ne mets en avant la connaissance mathématique que je possède encore au fond de moi, j'espère pouvoir un jour mener un projet qui le montrera.
 
-<hr>
-
-## Mes études
-
-<div class="timeline">
-<div class="container right">
-   <div class="content">
-    <h2>2020-2023</h2>
-    <p><span class="degree">Diplôme d'Ingénieur en Informatique</span><br><br>ENSICAEN</p>
-   </div>
-  </div>
- <div class="container left">
-   <div class="content">
-    <h2>2017-2020</h2>
-    <p><span class="degree">Licence Informatique</span><br>Option Sécurité des données et Théorie de l'information <br>Université de Caen</p>
-   </div>
- </div>
- <div class="container right">
-   <div class="content">
-     <h2>2016-2017</h2>
-     <p><span class="degree">Classe préparatoire MPSI</span> <br> Lycée Malherbe, Caen</p>
-   </div>
- </div>
- <div class="container left">
-   <div class="content">
-     <h2>2016</h2>
-     <p><span class="degree">Baccalauréat Scientifique Spécialité Maths</span> <br> Mention Très Bien <br> Lycée Charles de Gaulle, Caen</p>
-   </div>
- </div>
-</div>
-
 <hr id="Projets">
 
 ## Mes Projets
