@@ -14,8 +14,6 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 
 Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'ai évolué vers des projets complexes, spécialisés ou encore utilitaires. Même si aucun d'eux ne mets en avant la connaissance mathématique que je possède encore au fond de moi, j'espère pouvoir un jour mener un projet qui le montrera.
 
-<hr>
-
 <hr id="Projets">
 
 ## Mes Projets
