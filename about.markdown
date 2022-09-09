@@ -6,7 +6,7 @@ permalink: /about/
 
 # Qui je suis
 
-Une jeune programmeuse de talent, pour peu qu'on lui donne les moyens de le prouver. Mathématicienne qui s'ignore. Aime dessiner, écrire et regarder des vidéos.
+Une jeune programmeuse de talent, pour peu qu'on lui donne les moyens de le prouver. Mathématicienne qui s'ignore. Aime écrire et regarder des vidéos.
 
 # Ce que je fais actuellement
 
@@ -14,4 +14,4 @@ Une jeune programmeuse de talent, pour peu qu'on lui donne les moyens de le prou
 
 # Contact
 
-Une question? Envoyez moi un email à [jsca1498@gmail.com](mailto:jsca1498@gmail.com?subject=GithubIO)
+Une question? Contactez moi sur [mon profil LinkedIn!](https://www.linkedin.com/in/jasmine-c-9820211a3/)
