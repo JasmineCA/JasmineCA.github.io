@@ -8,11 +8,9 @@ layout: default
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-# Mon parcours de programmeur
+# Mon parcours
 
-D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma voie entre informatique et mathématique, pour finalement essayer de concilier les deux dans la cryptographie. J'aime aussi bidouiller mon système, surtout sans interface graphique. 
-
-Vous pourrez découvrir ici comment, d'un néophyte complet en programmation, j'ai évolué vers des projets complexes, spécialisés ou encore utilitaires. Même si aucun d'eux ne mets en avant la connaissance mathématique que je possède encore au fond de moi, j'espère pouvoir un jour mener un projet qui le montrera.
+D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma voie entre informatique et mathématique. Au fil de ma formation, je me suis finalement tournée vers la cybersécurité et surtout le e-paiement. Néanmoins, je reste touche à tout en informatique, et j'adore me lancer dans du développement logiciel!
 
 <hr id="Projets">
 
