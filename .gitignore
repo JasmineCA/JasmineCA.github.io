@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.markdownlint.json
 vendor
 assets/images/projets/TuringMachine/turingmachine.mp4
 assets/images/projets/SaveFolder/savefolder.mp4
