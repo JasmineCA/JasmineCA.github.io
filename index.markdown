@@ -88,4 +88,14 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
         <a href="{{site.url}}/projets/AuthMultiFacteurs" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
       </div>
   </div>
-</div>
+</div>  
+<div class="col mb-4">
+  <div class="card h-100">
+    <img src="{{ site.baseurl}}/../assets/images/placeholder-image.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Mise à jour d'une playlist youtube</h5>
+      <p class="card-text">Mise à jour d'une playlist youtube avec les dernières vidéos sorties à partir d'une liste de chaînes.</p>
+      <a href="{{site.url}}/projets/youtubeUpdatePlaylist" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
+    </div>
+  </div>
+</div>  
