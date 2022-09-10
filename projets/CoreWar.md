@@ -2,7 +2,7 @@
 layout: projet
 title: CoreWar
 permalink: /projets/CoreWar/
-tags: Projet en groupe - Java - Algorithme génétique - R&D
+tags: Projet en groupe - Java - Algorithme génétique
 dateProjet: Janvier 2019 - Avril 2019
 ---
 
@@ -29,29 +29,29 @@ dateProjet: Janvier 2019 - Avril 2019
   </a>
 </div>
 
-Le CoreWar est un jeu consistant à écrire deux programmes dans un langage se rapprochant de l'assembleur (le RedCode) dans le but de les faire s'affronter dans une machine simplifiée, qui peut exécuter les instructions des programmes. Le gagnant est celui qui écrase le programme adverse et qui prends le contrôle de la mémoire de la machine.
+Le CoreWar est un jeu consistant à écrire deux programmes dans un langage se rapprochant de l'assembleur (le RedCode) dans le but de les faire s'affronter dans une machine simplifiée, qui peut exécuter les instructions des programmes. Le gagnant est celui qui écrase le programme adverse et qui prend le contrôle de la mémoire de la machine.
 
 L'énoncé de ce deuxième projet de licence est découpé en deux parties. Dans un premier temps, après un temps de documentation, nous devions implémenter notre version du RedCode et de la machine, nommée Mars, afin de pouvoir exécuter des programmes. Dans un second temps, il fallait réfléchir à un moyen de générer des programmes performants pour notre implémentation.
 
-Le CoreWar est devenu assez populaire pour que des standards du RedCode soient publiés. Nous nous sommes basés sur le standard de 1984, le premier. Ce choix nous a permis de disposer rapidement d'une machine fonctionnelle. Profitant de l'utilisation d'un langage de programmation orienté objet puissant, nous avons pris le parti d'utiliser l'héritage et les classes abstraites afin de représenter les instructions. L'ajout de nouvelles instructions devient ainsi plus aisée. La machine d'exécution est assez classique dans son implémentation. 
+Le CoreWar est devenu assez populaire pour que des standards du RedCode soient publiés. Nous nous sommes basés sur le standard de 1984, le premier. Ce choix nous a permis de disposer rapidement d'une machine fonctionnelle. Profitant de l'utilisation d'un langage de programmation orienté objet puissant, nous avons pris le parti d'utiliser l'héritage et les classes abstraites afin de représenter les instructions. L'ajout de nouvelles instructions devient ainsi plus aisée. La machine d'exécution est assez classique dans son implémentation.  
 
 Nous avons également développé de nous même une partie "parser", pour analyser les fichiers textes contenant du RedCode, qui fait office de compilateur, pour avertir en cas de mauvaise syntaxe.
 
-La deuxième partie de l'énoncé a commencé par la formalisation d'un programme RedCode. Nous avons défini une classe spécifique pour relier instructions et scores de manière très simple, et logique. Ensuite, après une période de recherche, nous avons décidé de développer un algorithme génétique en partant d'une population aléatoire, car cette stratégie est souvent utilisée dans les "evolvers", les programmes permettant de générer des "guerriers" Redcode performants.
+La deuxième partie de l'énoncé a commencé par la formalisation d'un programme RedCode. Nous avons défini une classe spécifique pour relier instructions et scores de manière très simple et logique. Ensuite, après une période de recherche, nous avons décidé de développer un algorithme génétique en partant d'une population aléatoire, car cette stratégie est souvent utilisée dans les "evolvers", les programmes permettant de générer des "guerriers" Redcode performants.
 
-Toujours en prenant parti de notre langage de programmation, nous avons séparé les différentes étapes d'un algorithme génétique:
+Toujours en prenant parti de notre langage de programmation, nous avons séparé les différentes étapes d'un algorithme génétique :
 
-* La partie "Combat": comment les programmes doivent s'affronter
+* La partie "Combat" : comment les programmes doivent s'affronter
 
-* La partie "Sélection": comment sélectionner les programmes qui ont le mieux réussi la partie "Combat"
+* La partie "Sélection" : comment sélectionner les programmes qui ont le mieux réussi la partie "Combat"
 
-* La partie "Évolution": comment faire évoluer les programmes, notamment les faire muter et les croiser pour en obtenir des nouveaux
+* La partie "Évolution" : comment faire évoluer les programmes, notamment les faire muter et les croiser pour en obtenir des nouveaux
 
 Chaque partie est représentée par une interface Java, et n'importe qui peut implémenter une ou des classes concrètes pour chacune de ces interfaces. Par manque de temps, nous n'avons fait que le strict minimum en terme d'implémentation concrète, car l'intérêt était de générer des programmes puis d'analyser les résultats obtenus.
 
-L'analyse des programmes obtenus fait ressortir les choix implicites que nous avons fait pour déterminer un gagnant lors des combats. Au bout d'un certain nombre de cycles, pour éviter que le combat soit infini, nous déterminons le gagnant en fonction des cases possédées par chaque guerrier. Un guerrier possède une case si l'instruction dans la case provient de son programme original, ou si elle provient d'une action de son programme (un déplacement d'instruction par exemple). L'algorithme génétique se portait donc sur la longueur des programmes originaux, et la capacité à ne pas s'éliminer soit même (en faisant une action invalide), pour gagner.
+L'analyse des programmes obtenus fait ressortir les choix implicites que nous avons effectués pour déterminer un gagnant lors des combats. Au bout d'un certain nombre de cycles, pour éviter que le combat soit infini, nous déterminons le gagnant en fonction des cases possédées par chaque guerrier. Un guerrier possède une case si l'instruction dans la case provient de son programme original, ou si elle provient d'une action de son programme (un déplacement d'instruction par exemple). L'algorithme génétique se portait donc sur la longueur des programmes originaux, et la capacité à ne pas s'éliminer soit même (en faisant une action invalide), pour gagner.
 
-Ce projet m'a fait beaucoup gagné en expérience, notamment sur les décisions à prendre lors d'un projet, pour choisir une direction, la période de documentation et de recherche indispensable avant de se lancer, mais également innover pour utiliser au maximum les outils que j'avais à disposition. Beaucoup d'implémentation du CoreWar ont été réalisé en langage C, mais j'ai eu l'idée de représenter les instructions comme des classes au lieu de simples fonctions, ce qui permettait de profiter des avantages de Java. Cela demande une adaptation, une modélisation et donc une vision différente sur le sujet.
+Ce projet m'a fait beaucoup gagner en expérience, notamment sur les décisions à prendre lors d'un projet, pour choisir une direction, la période de documentation et de recherche indispensable avant de se lancer, mais également innover pour utiliser au maximum les outils que j'avais à disposition. Beaucoup d'implémentations du CoreWar ont été réalisées en langage C, mais j'ai eu l'idée de représenter les instructions comme des classes au lieu de simples fonctions, ce qui permettait de profiter des avantages de Java. Cela demande une adaptation, une modélisation et donc une vision différente sur le sujet.
 
 ### Extraits de code
 
@@ -157,21 +157,21 @@ public abstract class Instruction implements Cloneable{
 {% endraw %}
 {% endhighlight %}
 
-Voici une version simplifiée de la classe abstraite `Instruction`. Nos choix de programmation sont visibles dès les premières lignes, notamment sur la représentation des modes d'adressage. Avec du recul, le type `char` aurait été plus approprié pour sa taille en mémoire, plus petite que le type `Integer`, et pour la compréhension du code. Nous avons représenté ici une instruction quelconque, avec ses modifieurs de champs (pour l'adressage) et les valeurs des adresses. On garde également la trace du dernier `Warrior` ayant accédé à l'instruction.
+Voici une version simplifiée de la classe abstraite `Instruction`. Nos choix de programmation sont visibles dès les premières lignes, notamment sur la représentation des modes d'adressage. Avec du recul, le type `char` aurait été plus approprié pour sa taille en mémoire, plus petite que le type `Integer`, et pour la compréhension du code. Nous avons représenté ici une instruction quelconque, avec ses modificateurs de champs (pour l'adressage) et les valeurs des adresses. On garde également la trace du dernier `Warrior` ayant accédé à l'instruction.
 
-La classe possède deux constructeurs:
+La classe possède deux constructeurs :
 
 * Un constructeur à base d'`ArrayList`, une liste pour chaque champ. C'est le constructeur utilisé par les classes concrètes, via l'appel à `super()`
-* Un constructeur avec tout les champs, utilisé lorsque l'on copie une instruction. Cela permet d'éviter de construire des `ArrayList`. Cette spécificité sera expliqué dans un second temps.
+* Un constructeur avec tous les champs, utilisé lorsque l'on copie une instruction. Cela permet d'éviter de construire des `ArrayList`. Cette spécificité sera expliqué dans un second temps.
 
-Nous avons des méthodes concrètes dans la classe abstraite, qui sont utilisables de la même manière quelque soit le type d'instruction (par exemple les calculs). C'est le cas de la méthode `indirectToRelative`.
+Nous avons des méthodes concrètes dans la classe abstraite, qui sont utilisables de la même manière quel que soit le type d'instruction (par exemple les calculs). C'est le cas de la méthode `indirectToRelative`.
 
-Enfin, nous avons trois méthodes abstraites pour définir une instruction. La méthode `execution` définit comment l'instruction modifie la mémoire lorsque la machine l'exécute. Elle possède une référence à la machine, la valeur du pointeur d'instruction, mais également le Warrior qui exécute l'instruction. La méthode retourne l'état du pointeur:
+Enfin, nous avons trois méthodes abstraites pour définir une instruction. La méthode `execution` définit comment l'instruction modifie la mémoire lorsque la machine l'exécute. Elle possède une référence à la machine, la valeur du pointeur d'instruction, mais également le Warrior qui exécute l'instruction. La méthode retourne l'état du pointeur :
 
 * Sa nouvelle valeur (grâce à une incrémentation ou à un saut)
 * -1 si le programme est déclaré mort
 
-La méthode `isValidConfig` permet de vérifier si une instruction sera exécutable lorsqu'elle est créée. C'est à dire si les opérations sont possibles. Par exemple, il n'est pas possible de sauter à une adresse spécifiée en adressage direct. Dans le CoreWar, si l'instruction n'est pas exécutable, le programme meurt automatiquement. Néanmoins, nous avons choisi de faire office de compilateur de RedCode, en signifiant une instruction invalide avant l'exécution. C'est le rôle du `throw`. Nous avons implémenté nos propres classes d'exception afin de permettre un compilateur primitif lors du décodage d'un programme.
+La méthode `isValidConfig` permet de vérifier si une instruction sera exécutable lorsqu'elle est créée. C'est-à-dire si les opérations sont possibles. Par exemple, il n'est pas possible de sauter à une adresse spécifiée en adressage direct. Dans le CoreWar, si l'instruction n'est pas exécutable, le programme meurt automatiquement. Néanmoins, nous avons choisi de faire office de compilateur de RedCode, en signifiant une instruction invalide avant l'exécution. C'est le rôle du `throw`. Nous avons implémenté nos propres classes d'exception afin de permettre un compilateur primitif lors du décodage d'un programme.
 
 Enfin, la classe `Instruction` est `Cloneable`, donc les classes concrètes doivent signifier comment elles doivent se cloner. Le principal problème étant que les classes concrètes doivent garder leur type concret, et ne pas devenir simplement `Instruction`. C'est pour cette raison que cette méthode est implémentée pour chaque classe concrète. Avec un peu plus d'expérience en Java, nous aurions pu faire autrement.
 
