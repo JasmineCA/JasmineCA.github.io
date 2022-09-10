@@ -10,7 +10,7 @@ Root-Me est une plateforme d'apprentissage de la cybersécurité pas à pas, gr�
 
 Ce type de challenge permet de travailler sa curiosité, pour aller chercher des informations, des solutions, des idées pour avancer. Dans certains challenges, des ressources sont données, mais elles ne sont pas forcément des tutoriels à appliquer à la lettre. 
 
-Ces challenges me permettent de tromper l'ennui, tout en apprenant ou en entrenant mes compétences. Toutefois résoudre un challenge peut être une activité très chronophage, ce qui m'empêche d'y consacrer beaucoup de temps hors vacances, et d'avancer. 
+Ces challenges me permettent de tromper l'ennui, tout en apprenant ou en entretenant mes compétences. Toutefois, résoudre un challenge peut être une activité très chronophage, ce qui m'empêche d'y consacrer beaucoup de temps hors vacances, et d'avancer. 
 
 ### Extraits de code
 

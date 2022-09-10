@@ -29,9 +29,9 @@ dateProjet: 11 octobre 2021 - 4 avril 2022
   </a>
 </div>
 
-Une authentification multi facteurs permet d'authentifier une personne en utilisant plusieurs facteurs. L'exemple de la vie courante est celui de l'authenfication à deux facteurs: on utilise un mot de passe pour se connecter à un service, et un code (ou une confirmation) envoyé sur notre téléphone. Par la multiplication des facteurs, on renforce la certitude que l'on a sur la personne s'authentifiant sur le service.
+Une authentification multifacteurs permet d'authentifier une personne en utilisant plusieurs facteurs. L'exemple de la vie courante est celui de l'authentification à deux facteurs: on utilise un mot de passe pour se connecter à un service, et un code (ou une confirmation) envoyé sur notre téléphone. Par la multiplication des facteurs, on renforce la certitude que l'on a sur la personne s'authentifiant sur le service.
 
-Le projet réalisé est une démonstration d'une authentification multi facteurs avec trois facteurs:
+Le projet réalisé est une démonstration d'une authentification multifacteurs avec trois facteurs :
 
 - Une donnée biométrique (l'empreinte digitale)
 - Un QR-Code (contenant des informations sur l'utilisateur)
@@ -41,10 +41,10 @@ Le projet réalise l'enrôlement d'un utilisateur, par la capture d'une empreint
 
 Ce projet a également un autre objectif. Il doit tourner sur une borne à écran tactile, destinée à être utilisée lors d'événements de vulgarisation scientifique. Dès lors, les aspects de sécurité habituellement cachés sont montrés au grand public, afin de donner des explications sur le déroulement d'une telle méthode d'authentification. 
 
-Durant ce projet, j'ai été principalement en charge de la gestion de l'empreinte digitale. Grâce à une librairie compatible C#, je pouvais communiquer avec mon capteur, afin de commencer une capture, récupérer et traiter les données. J'ai également dessiné les minutiae sur l'image de l'empreinte. 
+Durant ce projet, j'ai été principalement en charge de la gestion de l'empreinte digitale. Grâce à une librairie compatible C#, je pouvais communiquer avec mon capteur, pour commencer une capture, récupérer et traiter les données. J'ai également dessiné les minutie sur l'image de l'empreinte. 
 
-J'ai pris en charge la partie "Information additionnelle", destinée au grand public. J'ai rajouté les différentes étapes de l'enrôlement et de l'authentification, par exemple en affichant les données du QR-Code (chiffrées et non chiffrées) ou en affichant la raison de l'échec de l'authentification. Au delà de l'aspect technique, cette partie a nécessité une réflexion sur les données à inclure et à comment les présenter.
+J'ai pris en charge la partie "Information additionnelle", destinée au grand public. J'ai rajouté les différentes étapes de l'enrôlement et de l'authentification, par exemple en affichant les données du QR-Code (chiffrées et non chiffrées) ou en affichant la raison de l'échec de l'authentification. Au-delà de l'aspect technique, cette partie a nécessité une réflexion sur les données à inclure et comment les présenter.
 
-En plus du travail technique, j'ai été en charge de l'organisation des réunions avec le tuteur de notre projet, des séances de travail avec la borne à écran tactile, mais aussi de la rédaction de comptes rendus de réunion.
+En plus du travail technique, j'ai été responsable de l'organisation des réunions avec le tuteur de notre projet, des séances de travail avec la borne à écran tactile, mais aussi de la rédaction de comptes rendus de réunion.
 
  *En raison de problème de confidentialité et de droits d'auteur, aucun extrait du code source ne sera publié*

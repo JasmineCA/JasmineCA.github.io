@@ -10,7 +10,7 @@ layout: default
 
 # Mon parcours
 
-D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma voie entre informatique et mathématique. Au fil de ma formation, je me suis finalement tournée vers la cybersécurité et surtout le e-paiement. Néanmoins, je reste touche à tout en informatique, et j'adore me lancer dans du développement logiciel!
+D'abord du côté des mathématiciens purs et durs, j'ai longtemps cherché ma voie entre informatique et mathématique. Au fil de ma formation, je me suis finalement tournée vers la cybersécurité et surtout le e-paiement. Néanmoins, je reste touche à tout en informatique, et j'adore me lancer dans du développement logiciel !
 
 <hr id="Projets">
 
@@ -21,7 +21,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
 <div class="card h-100">
   <img src="{{ site.baseurl}}/assets/images/projets/Cryptopals/main.png" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Challenges de Cryptopals!</h5>
+    <h5 class="card-title">Challenges de Cryptopals</h5>
     <p class="card-text">Première approche de la cryptographie à travers des challenges guidés et abordables, menant à des attaques réalisables en pratique. Utilisation de l'outil Jupyter Notebook pour séparer le code et son exécution de manière logique.</p>
     <a href="{{ site.url }}/projets/Cryptopals/" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
   </div>
@@ -32,8 +32,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
   <img src="{{ site.baseurl}}/assets/images/placeholder-image.png" class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Outil de sauvegarde d'un dossier par lecture</h5>
-    <p class="card-text">Sauvegarder le nom de certains fichiers pour pouvoir les retrouver en cas de besoin? Sauvegarder l'architecture d'un dossier pour la recréer
-    ultérieurement? Cet outil conçu en Rust répondra à ce besoin.</p>
+    <p class="card-text">Sauvegarder le nom de certains fichiers pour pouvoir les retrouver en cas de besoin ? Sauvegarder l'architecture d'un dossier pour la recréer ultérieurement ? Cet outil conçu en Rust répondra à ce besoin.</p>
     <a href="{{ site.url }}/projets/SaveTool/" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
   </div>
 </div>
@@ -43,8 +42,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
   <img src="{{ site.baseurl}}/assets/images/projets/TuringMachine/SMARTTable.PNG" class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Étude expérimentale d'une machine de Turing particulière</h5>
-    <p class="card-text">A partir d'une publication de chercheur sur la machine de Turing SMART, nous avons tenté d'expérimenter ses propriétés théorique à partir d'une
-    modélisation en C++ et de tests en script Bash.</p>
+    <p class="card-text">A partir d'une publication de chercheur sur la machine de Turing SMART, nous avons tenté d'expérimenter ses propriétés théoriques à partir d'une modélisation en C++ et de tests en script Bash.</p>
     <a href="{{ site.url }}/projets/TuringMachine/" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
   </div>
 </div>
@@ -64,10 +62,10 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
     <img src="{{ site.baseurl}}/assets/images/projets/CoreWar/corewar3.png" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">CoreWar: Affrontement de programmes</h5>
-      <p class="card-text">Modélisation en Java du jeu CoreWar, où deux programmes en Assembleur simplifié s'affrontent au sein d'une machine dotée d'une mémoire et d'un processeur. Dans le cadre de ce projet, une interface graphique simpliste ainsi qu'un algorithme générant des programmes performants ont également été développé.</p>
+      <p class="card-text">Modélisation en Java du jeu CoreWar, où deux programmes en Assembleur simplifié s'affrontent au sein d'une machine dotée d'une mémoire et d'un processeur. Dans le cadre de ce projet, une interface graphique simpliste ainsi qu'un algorithme générant des programmes performants ont également été développés.</p>
       <a href="{{ site.url }}/projets/CoreWar" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
     </div>
-  </div>
+  </div> 
 </div>
 <div class="col mb-4">
   <div class="card h-100">
@@ -84,7 +82,7 @@ D'abord du coté des mathématiciens purs et durs, j'ai longtemps cherché ma vo
     <img src="{{ site.baseurl}}/assets/images/projets/MultiFactorsAuthentication/multiFactorsAuth2.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Authentification Multi-Facteurs</h5>
-        <p class="card-text">Démonstration d'une méthode d'authentification multi facteurs avec une empreinte digitale, un QR-Code et un mot de passe.</p>
+        <p class="card-text">Démonstration d'une méthode d'authentification multifacteurs avec une empreinte digitale, un QR-Code et un mot de passe.</p>
         <a href="{{site.url}}/projets/AuthMultiFacteurs" class="btn btn-primary mybuttoncolor mybuttonstyle mx-auto stretched-link">En savoir plus</a>
       </div>
   </div>

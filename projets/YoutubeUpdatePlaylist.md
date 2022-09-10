@@ -30,6 +30,6 @@ Pour le moment, ce script est fonctionnel, mais avec encore des éléments à am
 
 Cette liste d'amélioration n'est pas exhaustive. Elle s'adapte à mon besoin, au fur et à mesure de l'évolution du projet.
 
-Ce script a été rédigé en Python, néanmoins dans la suite de ce projet, je souhaiterai pouvoir en faire une application mobile, afin de consulter l'état de ma playlist et de la mettre à jour rapidement et simplement.  
+Ce script a été rédigé en Python, néanmoins dans la suite de ce projet, je souhaiterais pouvoir en faire une application mobile, afin de consulter l'état de ma playlist et de la mettre à jour rapidement et simplement.  
 
 <a class="btn btn-primary mybuttoncolorDead mybuttonstyle mx-auto">Voir sur GitHub (Non public)</a>
